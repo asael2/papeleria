@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 2018_09_15_020538) do
     t.string "name"
     t.text "description"
     t.integer "price"
-    t.integer "inventario"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
